@@ -1,0 +1,89 @@
+
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"], input[type="file"], input[type="password"],textarea  {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  textarea {
+    resize: vertical;
+  }
+  .button-container {
+    text-align: right;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button-add-course {
+    margin-bottom: 15px;
+  }
+
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        a.button {
+            display: inline-block;
+            padding: 8px 12px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button.view {
+            background-color: #28a745;
+        }
+        .button.update {
+            background-color: #ffc107;
+        }
+        .button.delete {
+            background-color: #dc3545;
+        }
